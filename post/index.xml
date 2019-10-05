@@ -5,20 +5,12 @@
     <link>https://zhao.ke/post/</link>
       <atom:link href="https://zhao.ke/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 05 Oct 2019 12:28:34 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>https://zhao.ke/img/icon-192.png</url>
       <title>Posts</title>
       <link>https://zhao.ke/post/</link>
     </image>
-    
-    <item>
-      <title>Ttest</title>
-      <link>https://zhao.ke/post/ttest/</link>
-      <pubDate>Sat, 05 Oct 2019 12:28:34 -0400</pubDate>
-      <guid>https://zhao.ke/post/ttest/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

@@ -3,21 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://zhao.ke/</loc>
-    <lastmod>2019-10-05T12:28:34-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zhao.ke/post/</loc>
-    <lastmod>2019-10-05T12:28:34-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zhao.ke/post/ttest/</loc>
-    <lastmod>2019-10-05T12:28:34-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zhao.ke/authors/admin/</loc>
   </url>
   
@@ -30,7 +15,11 @@
   </url>
   
   <url>
-    <loc>https://zhao.ke/project/</loc>
+    <loc>https://zhao.ke/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zhao.ke/post/</loc>
   </url>
   
   <url>
@@ -47,10 +36,6 @@
   
   <url>
     <loc>https://zhao.ke/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://zhao.ke/project/-/</loc>
   </url>
   
 </urlset>
