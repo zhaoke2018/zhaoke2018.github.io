@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Ke&#39;s Home</title>
+    <link>https://zhao.ke/authors/</link>
+      <atom:link href="https://zhao.ke/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://zhao.ke/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>https://zhao.ke/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://zhao.ke/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://zhao.ke/authors/admin/</guid>
+      <description>&lt;p&gt;Ke Zhao is a second-year Master&amp;rsquo;s student in &lt;a href=&#34;https://www.ece.ncsu.edu/&#34; target=&#34;_blank&#34;&gt;Department of Electrical and Computer Engineering&lt;/a&gt; at &lt;a href=&#34;https://www.ncsu.edu/&#34; target=&#34;_blank&#34;&gt;NC State University&lt;/a&gt;. He is actively seeking full-time entry-level software positions.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
