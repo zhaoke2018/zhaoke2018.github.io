@@ -5,12 +5,87 @@
     <link>https://zhao.ke/</link>
       <atom:link href="https://zhao.ke/index.xml" rel="self" type="application/rss+xml" />
     <description>Ke&#39;s Home</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 05 Oct 2019 13:08:01 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 Oct 2019 23:35:40 -0400</lastBuildDate>
     <image>
       <url>https://zhao.ke/img/icon-192.png</url>
       <title>Ke&#39;s Home</title>
       <link>https://zhao.ke/</link>
     </image>
+    
+    <item>
+      <title>Java Data Structure</title>
+      <link>https://zhao.ke/post/java-data-structure/</link>
+      <pubDate>Mon, 07 Oct 2019 23:35:40 -0400</pubDate>
+      <guid>https://zhao.ke/post/java-data-structure/</guid>
+      <description>
+
+&lt;h1 id=&#34;updating&#34;&gt;Updating&lt;/h1&gt;
+
+&lt;p&gt;String finished. 10.07.2019
+Reference:
+&lt;a href=&#34;https://algorithm.yuanbin.me/zh-hans/basics_data_structure/string.html&#34; target=&#34;_blank&#34;&gt;数据结构与算法/leetcode/lintcode题解&lt;/a&gt;
+&lt;a href=&#34;http://www.runoob.com/java/java-stringbuffer.html&#34; target=&#34;_blank&#34;&gt;Java StringBuffer 和 StringBuilder 类&lt;/a&gt;
+&lt;a href=&#34;https://www.journaldev.com/538/string-vs-stringbuffer-vs-stringbuilder&#34; target=&#34;_blank&#34;&gt;String vs StringBuffer vs StringBuilder&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;string&#34;&gt;String&lt;/h1&gt;
+
+&lt;h2 id=&#34;create&#34;&gt;Create&lt;/h2&gt;
+
+&lt;p&gt;&amp;rdquo;&amp;lsquo;java
+String s1 = new String();
+String s2 = &amp;ldquo;kezhao&amp;rdquo;;
+&amp;ldquo;&amp;rsquo;&lt;/p&gt;
+
+&lt;h2 id=&#34;get-length&#34;&gt;Get Length&lt;/h2&gt;
+
+&lt;p&gt;&amp;rdquo;&amp;lsquo;java
+int s2Len = s2.length();
+&amp;ldquo;&amp;rsquo;&lt;/p&gt;
+
+&lt;h2 id=&#34;substring&#34;&gt;Substring&lt;/h2&gt;
+
+&lt;p&gt;&amp;rdquo;&amp;lsquo;java
+s2.substring(2, 6); // return &amp;ldquo;zhao&amp;rdquo;
+&amp;ldquo;&amp;rsquo;
+Start from 2, end before 6.&lt;/p&gt;
+
+&lt;h2 id=&#34;stringbuilder-and-stringbuffer&#34;&gt;StringBuilder and StringBuffer&lt;/h2&gt;
+
+&lt;p&gt;We need StringBuilder(or StringBuffer) when modify the original String. We know string is immutable in Java, which means when we do String manipulation, it generates a new String and discards the older one for garbage collection.
+In single-thread environment or we don&amp;rsquo;t care about thread safety, use StringBuilder. In other cases, use StringBuffer.
+&amp;ldquo;&amp;lsquo;java
+StringBuilder s3 = new StringBuilder(s2.substring(2, 6));
+&amp;ldquo;&amp;rsquo;&lt;/p&gt;
+
+&lt;h2 id=&#34;append&#34;&gt;Append&lt;/h2&gt;
+
+&lt;p&gt;&amp;rdquo;&amp;lsquo;java
+s3.append(&amp;ldquo;ke&amp;rdquo;);
+&amp;ldquo;&amp;rsquo;&lt;/p&gt;
+
+&lt;h2 id=&#34;stringbuilder-to-string&#34;&gt;StringBuilder to String&lt;/h2&gt;
+
+&lt;p&gt;&amp;rdquo;&amp;lsquo;java
+String s2New = s3.toString(); // return &amp;ldquo;zhaoke&amp;rdquo;
+&amp;ldquo;&amp;rsquo;&lt;/p&gt;
+
+&lt;h2 id=&#34;string-to-char-array&#34;&gt;String to Char Array&lt;/h2&gt;
+
+&lt;p&gt;&amp;rdquo;&amp;lsquo;java
+char[] s2Char = s2.toCharArray();
+&amp;ldquo;&amp;rsquo;&lt;/p&gt;
+
+&lt;h2 id=&#34;char-at-index&#34;&gt;Char at Index&lt;/h2&gt;
+
+&lt;p&gt;&amp;rdquo;&amp;lsquo;java
+char ch = s2.charAt(4); // return &amp;lsquo;a&amp;rsquo;
+&amp;ldquo;&amp;rsquo;&lt;/p&gt;
+
+&lt;h2 id=&#34;find-the-first-char-in-string&#34;&gt;Find the first char in String&lt;/h2&gt;
+
+&lt;p&gt;int index = s2.indexOf(&amp;lsquo;e&amp;rsquo;); // return 1. if not found, return -1&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>1</title>
