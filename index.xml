@@ -5,12 +5,43 @@
     <link>https://zhao.ke/</link>
       <atom:link href="https://zhao.ke/index.xml" rel="self" type="application/rss+xml" />
     <description>Ke&#39;s Home</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 Oct 2019 23:35:40 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 08 Oct 2019 11:43:34 -0400</lastBuildDate>
     <image>
       <url>https://zhao.ke/img/icon-192.png</url>
       <title>Ke&#39;s Home</title>
       <link>https://zhao.ke/</link>
     </image>
+    
+    <item>
+      <title>WolfTimeHelper</title>
+      <link>https://zhao.ke/project/wolftimehelper/</link>
+      <pubDate>Tue, 08 Oct 2019 11:43:34 -0400</pubDate>
+      <guid>https://zhao.ke/project/wolftimehelper/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/zhaoke2018/WolfTimeHelper&#34; target=&#34;_blank&#34;&gt;Github Repo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+
+&lt;p&gt;This semester(Fall 2019), I am the hourly TA for CSC/ECE/OR 579, which is not the 20 hours/week common TA. So I need to clock in and out on Wolftime inside a website called Mypack Portal for maximum 10 hours/week. If I want the full wage, I have to clock, which is the redundant rule. Usually, I need to click 5 times for clocking in and same for out. Also set the alarm to remind me not to go beyond that 10-hour limit. So how can I automate this process?
+&lt;img src=&#34;https://zhao.ke/img/1.png&#34; alt=&#34;Wolftime&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;language-and-tool&#34;&gt;Language and Tool&lt;/h2&gt;
+
+&lt;p&gt;First, I try to &lt;a href=&#34;https://github.com/zhaoke2018/WolfTimeHelper/blob/master/wolftime.py&#34; target=&#34;_blank&#34;&gt;selenium in Python&lt;/a&gt;, a portable framework for testing web applications, which can simulate the click. This little script works pretty well, but it needs another file called WebDriver to drive broswer running simulation, which is not easy to find the compatible one. Then, my classmate inspired me, why not Chrome Extension?&lt;/p&gt;
+
+&lt;p&gt;Finally, I found Chrome Extension is a perfect match. It&amp;rsquo;s only some HTML, CSS, and JavaScript, the same as web, which I can handle. It looks like easy, just some click() and sleep(), but there are also some problems. The most important one is click() doesn&amp;rsquo;t work at login and submit the clock sometimes.&lt;/p&gt;
+
+&lt;p&gt;At &amp;ldquo;login&amp;rdquo;, Chrome reminds me I need to fill in username and password, but they are already there with autofill. So I try to use JaveScript to fill in the form again, which needs users to enter there username and password inside .js file, but it works fine.&lt;/p&gt;
+
+&lt;p&gt;At &amp;ldquo;submit the clock&amp;rdquo;, sometimes it works but else not. I found out there is an option &amp;ldquo;runAt&amp;rdquo; in chrome.tabs.executeScript, then I can choose to run the click JavaScript at &amp;ldquo;document_end&amp;rdquo;. Finally, it works.&lt;/p&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;p&gt;WolfTimeHelper can do all the procedure for clock in&amp;amp;out automatically. Users only need to enter how many hour they want to clock.
+&lt;img src=&#34;https://zhao.ke/img/2.png&#34; alt=&#34;WolfTimeHelper&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Java Data Structure</title>
