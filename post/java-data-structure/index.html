@@ -28,10 +28,12 @@
   
     
   
-  <meta name="description" content="Updating String finished. 10.07.2019 Reference: 数据结构与算法/leetcode/lintcode题解 Java StringBuffer 和 StringBuilder 类 String vs StringBuffer vs StringBuilder
-String Create &rdquo;&lsquo;java String s1 = new String(); String s2 = &ldquo;kezhao&rdquo;; &ldquo;&rsquo;
-Get Length &rdquo;&lsquo;java int s2Len = s2.length(); &ldquo;&rsquo;
-Substring &rdquo;&lsquo;java s2.substring(2, 6); // return &ldquo;zhao&rdquo; &ldquo;&rsquo; Start from 2, end before 6.
+  <meta name="description" content="Updating String finished. 10.07.2019
+Reference:
+数据结构与算法/leetcode/lintcode题解
+Java StringBuffer 和 StringBuilder 类
+String vs StringBuffer vs StringBuilder
+String Create String s1 = new String(); String s2 = &quot;kezhao&quot;;  Get Length int s2Len = s2.length();  Substring s2.substring(2, 6); // return &quot;zhao&quot;  Start from 2, end before 6.
 StringBuilder and StringBuffer We need StringBuilder(or StringBuffer) when modify the original String. We know string is immutable in Java, which means when we do String manipulation, it generates a new String and discards the older one for garbage collection.">
 
   
@@ -120,10 +122,12 @@ StringBuilder and StringBuffer We need StringBuilder(or StringBuffer) when modif
   <meta property="og:site_name" content="Ke&#39;s Home">
   <meta property="og:url" content="https://zhao.ke/post/java-data-structure/">
   <meta property="og:title" content="Java Data Structure | Ke&#39;s Home">
-  <meta property="og:description" content="Updating String finished. 10.07.2019 Reference: 数据结构与算法/leetcode/lintcode题解 Java StringBuffer 和 StringBuilder 类 String vs StringBuffer vs StringBuilder
-String Create &rdquo;&lsquo;java String s1 = new String(); String s2 = &ldquo;kezhao&rdquo;; &ldquo;&rsquo;
-Get Length &rdquo;&lsquo;java int s2Len = s2.length(); &ldquo;&rsquo;
-Substring &rdquo;&lsquo;java s2.substring(2, 6); // return &ldquo;zhao&rdquo; &ldquo;&rsquo; Start from 2, end before 6.
+  <meta property="og:description" content="Updating String finished. 10.07.2019
+Reference:
+数据结构与算法/leetcode/lintcode题解
+Java StringBuffer 和 StringBuilder 类
+String vs StringBuffer vs StringBuilder
+String Create String s1 = new String(); String s2 = &quot;kezhao&quot;;  Get Length int s2Len = s2.length();  Substring s2.substring(2, 6); // return &quot;zhao&quot;  Start from 2, end before 6.
 StringBuilder and StringBuffer We need StringBuilder(or StringBuffer) when modify the original String. We know string is immutable in Java, which means when we do String manipulation, it generates a new String and discards the older one for garbage collection."><meta property="og:image" content="https://zhao.ke/img/icon-192.png">
   <meta property="twitter:image" content="https://zhao.ke/img/icon-192.png"><meta property="og:locale" content="en-us">
   
@@ -176,7 +180,7 @@ StringBuilder and StringBuffer We need StringBuilder(or StringBuffer) when modif
       "url": "https://zhao.ke/img/icon-512.png"
     }
   },
-  "description": "Updating String finished. 10.07.2019 Reference: 数据结构与算法/leetcode/lintcode题解 Java StringBuffer 和 StringBuilder 类 String vs StringBuffer vs StringBuilder\nString Create \u0026rdquo;\u0026lsquo;java String s1 = new String(); String s2 = \u0026ldquo;kezhao\u0026rdquo;; \u0026ldquo;\u0026rsquo;\nGet Length \u0026rdquo;\u0026lsquo;java int s2Len = s2.length(); \u0026ldquo;\u0026rsquo;\nSubstring \u0026rdquo;\u0026lsquo;java s2.substring(2, 6); // return \u0026ldquo;zhao\u0026rdquo; \u0026ldquo;\u0026rsquo; Start from 2, end before 6.\nStringBuilder and StringBuffer We need StringBuilder(or StringBuffer) when modify the original String. We know string is immutable in Java, which means when we do String manipulation, it generates a new String and discards the older one for garbage collection."
+  "description": "Updating String finished. 10.07.2019\nReference:\n数据结构与算法/leetcode/lintcode题解\nJava StringBuffer 和 StringBuilder 类\nString vs StringBuffer vs StringBuilder\nString Create String s1 = new String(); String s2 = \u0026quot;kezhao\u0026quot;;  Get Length int s2Len = s2.length();  Substring s2.substring(2, 6); // return \u0026quot;zhao\u0026quot;  Start from 2, end before 6.\nStringBuilder and StringBuffer We need StringBuilder(or StringBuffer) when modify the original String. We know string is immutable in Java, which means when we do String manipulation, it generates a new String and discards the older one for garbage collection."
 }
 </script>
 
@@ -572,69 +576,69 @@ StringBuilder and StringBuffer We need StringBuilder(or StringBuffer) when modif
 
 <h1 id="updating">Updating</h1>
 
-<p>String finished. 10.07.2019
-Reference:
-<a href="https://algorithm.yuanbin.me/zh-hans/basics_data_structure/string.html" target="_blank">数据结构与算法/leetcode/lintcode题解</a>
-<a href="http://www.runoob.com/java/java-stringbuffer.html" target="_blank">Java StringBuffer 和 StringBuilder 类</a>
-<a href="https://www.journaldev.com/538/string-vs-stringbuffer-vs-stringbuilder" target="_blank">String vs StringBuffer vs StringBuilder</a></p>
+<p>String finished. 10.07.2019</p>
+
+<p>Reference:</p>
+
+<p><a href="https://algorithm.yuanbin.me/zh-hans/basics_data_structure/string.html" target="_blank">数据结构与算法/leetcode/lintcode题解</a></p>
+
+<p><a href="http://www.runoob.com/java/java-stringbuffer.html" target="_blank">Java StringBuffer 和 StringBuilder 类</a></p>
+
+<p><a href="https://www.journaldev.com/538/string-vs-stringbuffer-vs-stringbuilder" target="_blank">String vs StringBuffer vs StringBuilder</a></p>
 
 <h1 id="string">String</h1>
 
 <h2 id="create">Create</h2>
 
-<p>&rdquo;&lsquo;java
-String s1 = new String();
-String s2 = &ldquo;kezhao&rdquo;;
-&ldquo;&rsquo;</p>
+<pre><code class="language-java">String s1 = new String();
+String s2 = &quot;kezhao&quot;;
+</code></pre>
 
 <h2 id="get-length">Get Length</h2>
 
-<p>&rdquo;&lsquo;java
-int s2Len = s2.length();
-&ldquo;&rsquo;</p>
+<pre><code class="language-java">int s2Len = s2.length();
+</code></pre>
 
 <h2 id="substring">Substring</h2>
 
-<p>&rdquo;&lsquo;java
-s2.substring(2, 6); // return &ldquo;zhao&rdquo;
-&ldquo;&rsquo;
-Start from 2, end before 6.</p>
+<pre><code class="language-java">s2.substring(2, 6); // return &quot;zhao&quot;
+</code></pre>
+
+<p>Start from 2, end before 6.</p>
 
 <h2 id="stringbuilder-and-stringbuffer">StringBuilder and StringBuffer</h2>
 
-<p>We need StringBuilder(or StringBuffer) when modify the original String. We know string is immutable in Java, which means when we do String manipulation, it generates a new String and discards the older one for garbage collection.
-In single-thread environment or we don&rsquo;t care about thread safety, use StringBuilder. In other cases, use StringBuffer.
-&ldquo;&lsquo;java
-StringBuilder s3 = new StringBuilder(s2.substring(2, 6));
-&ldquo;&rsquo;</p>
+<p>We need StringBuilder(or StringBuffer) when modify the original String. We know string is immutable in Java, which means when we do String manipulation, it generates a new String and discards the older one for garbage collection.</p>
+
+<p>In single-thread environment or we don&rsquo;t care about thread safety, use StringBuilder. In other cases, use StringBuffer.</p>
+
+<pre><code class="language-java">StringBuilder s3 = new StringBuilder(s2.substring(2, 6));
+</code></pre>
 
 <h2 id="append">Append</h2>
 
-<p>&rdquo;&lsquo;java
-s3.append(&ldquo;ke&rdquo;);
-&ldquo;&rsquo;</p>
+<pre><code class="language-java">s3.append(&quot;ke&quot;);
+</code></pre>
 
 <h2 id="stringbuilder-to-string">StringBuilder to String</h2>
 
-<p>&rdquo;&lsquo;java
-String s2New = s3.toString(); // return &ldquo;zhaoke&rdquo;
-&ldquo;&rsquo;</p>
+<pre><code class="language-java">String s2New = s3.toString(); // return &quot;zhaoke&quot;
+</code></pre>
 
 <h2 id="string-to-char-array">String to Char Array</h2>
 
-<p>&rdquo;&lsquo;java
-char[] s2Char = s2.toCharArray();
-&ldquo;&rsquo;</p>
+<pre><code class="language-java">char[] s2Char = s2.toCharArray();
+</code></pre>
 
 <h2 id="char-at-index">Char at Index</h2>
 
-<p>&rdquo;&lsquo;java
-char ch = s2.charAt(4); // return &lsquo;a&rsquo;
-&ldquo;&rsquo;</p>
+<pre><code class="language-java">char ch = s2.charAt(4); // return 'a'
+</code></pre>
 
 <h2 id="find-the-first-char-in-string">Find the first char in String</h2>
 
-<p>int index = s2.indexOf(&lsquo;e&rsquo;); // return 1. if not found, return -1</p>
+<pre><code class="language-java">int index = s2.indexOf('e'); // return 1. if not found, return -1
+</code></pre>
 
     </div>
 
