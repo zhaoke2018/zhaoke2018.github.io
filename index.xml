@@ -14,9 +14,9 @@
     
     <item>
       <title>WolfTimeHelper</title>
-      <link>https://zhao.ke/project/wolftimehelper/</link>
+      <link>https://zhao.ke/post/wolftimehelper/</link>
       <pubDate>Tue, 08 Oct 2019 11:43:34 -0400</pubDate>
-      <guid>https://zhao.ke/project/wolftimehelper/</guid>
+      <guid>https://zhao.ke/post/wolftimehelper/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/zhaoke2018/WolfTimeHelper&#34; target=&#34;_blank&#34;&gt;Github Repo&lt;/a&gt;&lt;/p&gt;
@@ -40,81 +40,6 @@
 
 &lt;p&gt;WolfTimeHelper can do all the procedure for clock in&amp;amp;out automatically. Users only need to enter how many hour they want to clock.
 &lt;img src=&#34;https://zhao.ke/img/2.png&#34; alt=&#34;WolfTimeHelper&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Java Data Structure</title>
-      <link>https://zhao.ke/post/java-data-structure/</link>
-      <pubDate>Mon, 07 Oct 2019 23:35:40 -0400</pubDate>
-      <guid>https://zhao.ke/post/java-data-structure/</guid>
-      <description>
-
-&lt;h1 id=&#34;updating&#34;&gt;Updating&lt;/h1&gt;
-
-&lt;p&gt;String finished. 10.07.2019&lt;/p&gt;
-
-&lt;p&gt;Reference:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://algorithm.yuanbin.me/zh-hans/basics_data_structure/string.html&#34; target=&#34;_blank&#34;&gt;数据结构与算法/leetcode/lintcode题解&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.runoob.com/java/java-stringbuffer.html&#34; target=&#34;_blank&#34;&gt;Java StringBuffer 和 StringBuilder 类&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.journaldev.com/538/string-vs-stringbuffer-vs-stringbuilder&#34; target=&#34;_blank&#34;&gt;String vs StringBuffer vs StringBuilder&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;string&#34;&gt;String&lt;/h1&gt;
-
-&lt;h2 id=&#34;create&#34;&gt;Create&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;String s1 = new String();
-String s2 = &amp;quot;kezhao&amp;quot;;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;get-length&#34;&gt;Get Length&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;int s2Len = s2.length();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;substring&#34;&gt;Substring&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;s2.substring(2, 6); // return &amp;quot;zhao&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Start from 2, end before 6.&lt;/p&gt;
-
-&lt;h2 id=&#34;stringbuilder-and-stringbuffer&#34;&gt;StringBuilder and StringBuffer&lt;/h2&gt;
-
-&lt;p&gt;We need StringBuilder(or StringBuffer) when modify the original String. We know string is immutable in Java, which means when we do String manipulation, it generates a new String and discards the older one for garbage collection.&lt;/p&gt;
-
-&lt;p&gt;In single-thread environment or we don&amp;rsquo;t care about thread safety, use StringBuilder. In other cases, use StringBuffer.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;StringBuilder s3 = new StringBuilder(s2.substring(2, 6));
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;append&#34;&gt;Append&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;s3.append(&amp;quot;ke&amp;quot;);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;stringbuilder-to-string&#34;&gt;StringBuilder to String&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;String s2New = s3.toString(); // return &amp;quot;zhaoke&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;string-to-char-array&#34;&gt;String to Char Array&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;char[] s2Char = s2.toCharArray();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;char-at-index&#34;&gt;Char at Index&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;char ch = s2.charAt(4); // return &#39;a&#39;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;find-the-first-char-in-string&#34;&gt;Find the first char in String&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;int index = s2.indexOf(&#39;e&#39;); // return 1. if not found, return -1
-&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
