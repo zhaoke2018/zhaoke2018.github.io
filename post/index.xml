@@ -5,12 +5,42 @@
     <link>https://zhao.ke/post/</link>
       <atom:link href="https://zhao.ke/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 08 Oct 2019 11:43:34 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 23 Mar 2020 11:43:34 -0400</lastBuildDate>
     <image>
       <url>https://zhao.ke/img/icon-192.png</url>
       <title>Posts</title>
       <link>https://zhao.ke/post/</link>
     </image>
+    
+    <item>
+      <title>PDF Broken Link Detector</title>
+      <link>https://zhao.ke/post/pdfbrokenlinkdetector/</link>
+      <pubDate>Mon, 23 Mar 2020 11:43:34 -0400</pubDate>
+      <guid>https://zhao.ke/post/pdfbrokenlinkdetector/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://pdf.zhao.ke/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Built a web application which can detect broken links in PDF files · Used Django framework with Python script to detect&lt;/li&gt;
+&lt;li&gt;Designed the UI with Bootstrap&lt;/li&gt;
+&lt;li&gt;Deployed to AWS with Elastic Beanstalk&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Travel Blog App</title>
+      <link>https://zhao.ke/post/travelblogapp/</link>
+      <pubDate>Mon, 23 Mar 2020 11:43:34 -0400</pubDate>
+      <guid>https://zhao.ke/post/travelblogapp/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/zhaoke2018/Travel-Blog-App&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Developed an app that user can login, choose blog from list, and read blog details&lt;/li&gt;
+&lt;li&gt;fetched blog data from Internet via RESTful API&lt;/li&gt;
+&lt;li&gt;Created Offline Mode which can store data in Room Database and show data before loading from Internet&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>WolfTimeHelper</title>
